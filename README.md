@@ -34,3 +34,5 @@ The model is built using deep learning techniques and trained on various dataset
 - YOLOv8: splits an image into a grid, and each grid cell predicts both the presence of an object and its location (bounding box). It can identify and locate multiple objects in the same image, making it ideal for tasks like surveillance, autonomous driving, or any real-time applications.
 
 # Results
+- Facial Recognition: Averages around 82-89.75% when testing with new facial data
+- Object Detection: Averages around n ~ n% when testing with new object data
