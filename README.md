@@ -43,3 +43,10 @@ The model is built using deep learning techniques and trained on various dataset
 3. Use notebooks from Alpha directory for facial recognition
 4. Use notebooks from Beta directory for object detectioon
 5. Compare your results with these to see if any discrepencies exist
+
+# References
+## YOLO
+- https://docs.ultralytics.com/models/yolo11/
+
+## VGG16
+- https://keras.io/api/applications/vgg/
