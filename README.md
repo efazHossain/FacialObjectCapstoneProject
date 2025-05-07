@@ -31,11 +31,11 @@ The model is built using deep learning techniques and trained on various dataset
 
 ## Object Detection Model
 - EfficientNet: Recognizes patterns in images by passing the image through a series of layers. It identifies objects by detecting edges, textures, and shapes, gradually learning to distinguish between different objects (e.g., cars, dogs) in a scene.
-- YOLOv8: splits an image into a grid, and each grid cell predicts both the presence of an object and its location (bounding box). It can identify and locate multiple objects in the same image, making it ideal for tasks like surveillance, autonomous driving, or any real-time applications.
+- YOLO11: splits an image into a grid, and each grid cell predicts both the presence of an object and its location (bounding box). It can identify and locate multiple objects in the same image, making it ideal for tasks like surveillance, autonomous driving, or any real-time applications.
 
 # Results
-- Facial Recognition: Averages around 82-89.75% when testing with new facial data
-- Object Detection: Averages around n ~ n% when testing with new object data
+- Facial Recognition: Averages around 82-89.75% accuracy when testing with new facial data
+- Object Detection: Averages around 65-72% accuracy with Recall of 0.668 when testing with new object data
 
 # How To Recreate Results
 1. Install required packages (TensorFlow, Keras, OpenCV, Scikit-Learn, NumPy, Pandas, Matplotlib, Seaborn, KerasTuner, Ultralytics)
