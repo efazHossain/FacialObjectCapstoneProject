@@ -28,14 +28,21 @@ The model is built using deep learning techniques and trained on various dataset
 # Model Architecture
 ## Facial Recognition Model
 - VGG16: VGG16 is a popular deep learning model used for image recognition tasks, including facial recognition. It has 16 layers that process images through small filters to capture detailed features, like edges and textures. In facial recognition, VGG16 helps by learning to detect key facial features (like eyes, nose, and mouth) and distinguishing between different faces. It is often used with pre-trained weights from large datasets, making it effective for recognizing faces in new images with high accuracy.
+- ![image](https://github.com/user-attachments/assets/291c7c4b-ef18-4e7f-aa86-b0ff227caa6c)
 
 ## Object Detection Model
 - EfficientNet: Recognizes patterns in images by passing the image through a series of layers. It identifies objects by detecting edges, textures, and shapes, gradually learning to distinguish between different objects (e.g., cars, dogs) in a scene.
 - YOLO11: splits an image into a grid, and each grid cell predicts both the presence of an object and its location (bounding box). It can identify and locate multiple objects in the same image, making it ideal for tasks like surveillance, autonomous driving, or any real-time applications.
+- ![image](https://github.com/user-attachments/assets/81a82952-48c2-4345-8572-99bbb92d36ab)
 
 # Results
-- Facial Recognition: Averages around 82-89.75% accuracy when testing with new facial data
-- Object Detection: Averages around 65-72% accuracy with Recall of 0.668 when testing with new object data
+## Facial Recognition: Averages around 82-89.75% accuracy when testing with new facial data
+- ![image](https://github.com/user-attachments/assets/03a9aa0a-ab4a-493e-b582-17eeeb54fad3)
+- ![image](https://github.com/user-attachments/assets/a7d9e135-1510-44af-a531-14283fdb9f7a)
+
+## Object Detection: Averages around 65-72% accuracy with Recall of 0.668 when testing with new object data
+- ![image](https://github.com/user-attachments/assets/afaf9eeb-8852-4ed5-82fd-d383585ff57f)
+- ![image](https://github.com/user-attachments/assets/6bf92b19-636e-45d7-91cc-b8dc0b448bc0)
 
 # How To Recreate Results
 1. Install required packages (TensorFlow, Keras, OpenCV, Scikit-Learn, NumPy, Pandas, Matplotlib, Seaborn, KerasTuner, Ultralytics)
